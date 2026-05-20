@@ -316,17 +316,19 @@ footer{background:#070F1C;padding:3rem 0;border-top:1px solid var(--border2)}
 <nav>
   <div class="nav-inner">
     <a class="nav-logo" href="#home">
-      <div class="nav-logo-mark">
-        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="1" y="1" width="34" height="34" rx="2" stroke="#C9A84C" stroke-width="1"/>
-          <path d="M8 26V10l7 10 7-10v16" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M26 10v16" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M22 18h8" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round"/>
-        </svg>
-      </div>
-      <div class="nav-logo-text">
-        <span class="nav-logo-name">NEBA GROUP</span>
-        <span class="nav-logo-sub">Sydney · Accra</span>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+        <div style="display:flex;gap:4px;align-items:flex-end">
+          <div style="width:7px;height:14px;opacity:.5;background:#C9A84C;border-radius:1px"></div>
+          <div style="width:7px;height:22px;opacity:.7;background:#C9A84C;border-radius:1px"></div>
+          <div style="width:7px;height:32px;background:#C9A84C;border-radius:1px"></div>
+          <div style="width:7px;height:24px;opacity:.75;background:#C9A84C;border-radius:1px"></div>
+          <div style="width:7px;height:16px;opacity:.55;background:#C9A84C;border-radius:1px"></div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:3px">
+          <span style="font-family:'DM Sans',sans-serif;font-weight:900;font-size:15px;letter-spacing:0.35em;color:#FFFFFF;line-height:1">NEBA</span>
+          <div style="width:100%;height:1px;background:#C9A84C"></div>
+          <span style="font-family:'DM Sans',sans-serif;font-size:8px;letter-spacing:0.3em;color:#C9A84C;text-transform:uppercase">GROUP</span>
+        </div>
       </div>
     </a>
     <div class="nav-links">
@@ -470,11 +472,13 @@ footer{background:#070F1C;padding:3rem 0;border-top:1px solid var(--border2)}
         <div class="principal-card">
           <div class="principal-role">Principal — Accounting &amp; Tax Advisory</div>
           <div class="principal-name">Esther Agyeben</div>
-          <div class="principal-desc">Esther leads the Accounting Managed Services practice across both Ghana and Australia. A Certified Professional Accountant (CPA), Esther delivers bookkeeping, management accounts, payroll, and tax compliance services to businesses operating in both markets — ensuring financial governance meets the regulatory standards of each jurisdiction.</div>
+          <div class="principal-desc">Esther leads the Accounting and Tax Advisory practice across Ghana and Australia. She holds a degree in Commerce, a postgraduate qualification in Taxation Law, a CPA, and CIMA — combining legal tax expertise with strategic financial management to serve businesses, corporates, and high-net-worth individuals across both markets. Her practice spans virtual CFO services, tax architecture, management reporting, and core compliance — delivered to the same standard in Sydney and Accra.</div>
           <div class="principal-certs">
             <span class="pcert">CPA</span>
-            <span class="pcert">Accounting Managed Services</span>
-            <span class="pcert">Tax Compliance — AU &amp; GH</span>
+            <span class="pcert">CIMA</span>
+            <span class="pcert">BCom</span>
+            <span class="pcert">Postgrad — Taxation Law</span>
+            <span class="pcert">AU &amp; GH Practice</span>
           </div>
         </div>
       </div>
@@ -620,6 +624,36 @@ footer{background:#070F1C;padding:3rem 0;border-top:1px solid var(--border2)}
         <div class="svc-title">Management Reporting</div>
         <div class="svc-desc">Monthly and quarterly management reporting packages for business owners, investors, and boards. P&amp;L, cash flow, KPI dashboards, and commentary. Particularly valuable for diaspora business owners managing operations remotely.</div>
         <div class="svc-tags"><span class="svc-tag">Board Reporting</span><span class="svc-tag">KPI Dashboards</span><span class="svc-tag">Remote Management</span></div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">🏦</div>
+        <div class="svc-title">Virtual CFO &amp; Financial Strategy</div>
+        <div class="svc-desc">Executive-level financial leadership for growing businesses that are not yet ready for a full-time CFO. Cash flow forecasting, capital budgeting, financial modelling, and strategic planning — delivered on a retainer basis across Australia and Ghana.</div>
+        <div class="svc-tags"><span class="svc-tag">vCFO</span><span class="svc-tag">Cash Flow Forecasting</span><span class="svc-tag">AU &amp; GH</span></div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">🏗</div>
+        <div class="svc-title">Tax Planning &amp; Structuring</div>
+        <div class="svc-desc">Designing corporate structures — companies, trusts, and partnerships — to optimise asset protection and minimise legitimate tax exposure. Covers cross-border structuring for clients operating across Australia and Ghana, including transfer pricing and international tax considerations.</div>
+        <div class="svc-tags"><span class="svc-tag">Corporate Structuring</span><span class="svc-tag">Asset Protection</span><span class="svc-tag">Cross-Border Tax</span></div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">⚖️</div>
+        <div class="svc-title">Tax Dispute Resolution &amp; Audit Representation</div>
+        <div class="svc-desc">Representing clients in tax disputes, reviews, and audits with the ATO (Australia) and GRA (Ghana). Leveraging legal and accounting credentials to draft position papers, respond to information requests, and navigate revenue authority processes on your behalf.</div>
+        <div class="svc-tags"><span class="svc-tag">ATO Representation</span><span class="svc-tag">GRA Representation</span><span class="svc-tag">Tax Disputes</span></div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">📊</div>
+        <div class="svc-title">Business Valuations &amp; M&amp;A Advisory</div>
+        <div class="svc-desc">Independent business valuations for purchase, sale, restructuring, or dispute resolution. Due diligence support, financial analysis, and advisory for mergers and acquisitions — for businesses in Australia and Ghana across sectors including professional services, real estate, and agribusiness.</div>
+        <div class="svc-tags"><span class="svc-tag">Valuations</span><span class="svc-tag">Due Diligence</span><span class="svc-tag">M&amp;A Advisory</span></div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">🌿</div>
+        <div class="svc-title">Estate &amp; Succession Planning</div>
+        <div class="svc-desc">Integrating business exit strategies with personal wealth structures to ensure smooth, tax-effective transitions to the next generation. Covers wills, family trust structures, superannuation (Australia), and cross-border estate considerations for clients with assets in both Australia and Ghana.</div>
+        <div class="svc-tags"><span class="svc-tag">Succession Planning</span><span class="svc-tag">Estate Structuring</span><span class="svc-tag">AU &amp; GH</span></div>
       </div>
     </div>
     <div class="services-panel" id="tab-bog">
